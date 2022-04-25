@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
 
 * {
@@ -249,7 +248,7 @@ p {
     /* justify-content: space-between; */
     /* background-color: rgba(0, 0, 0, 0.3); */
     /* background: rgba(255, 255, 255, 0.6); */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(7px);
 }
 
@@ -422,6 +421,10 @@ p {
     padding: 5rem;
 }
 
+.contact span {
+    color: #F29E6D;
+}
+
 form {
     color: #fff;
     width: 100%;
@@ -440,7 +443,6 @@ textarea {
     height: 9.5rem;
 }
 
-}
 input, textarea {
     font-size: 1.5rem;
     color: #a1a1a1;
@@ -455,7 +457,7 @@ input:focus, textarea:focus {
     color: #d4d4d4;
 }
 
-form button {
+.contact button {
     color: #fff;
     font-size: 2rem;
     background: rgba(255, 255, 255, 0.1);
@@ -471,7 +473,7 @@ form button {
     transition: 0.2s ease-in;
 }
 
-form button:hover {
+.contact button:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;
     backdrop-filter: blur(0px);
